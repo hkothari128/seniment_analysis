@@ -1,0 +1,4 @@
+disadvantages:
+- double negatives: little delay
+- pos tagging weak: sound noun is taken as sound adjective
+-
