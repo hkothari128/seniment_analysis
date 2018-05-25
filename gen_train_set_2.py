@@ -1,4 +1,4 @@
-import pickle
+import pickle,csv,pprint
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 from nltk.tokenize import RegexpTokenizer
@@ -63,8 +63,8 @@ def get_tuple(text):
 	else:
 		ratio=float(1.0*pos_count/neg_count)
 	return(polarity,subjectivity,ratio)		
-
-texts=[
+texts=[]
+'''texts=[
 'I bought it rs522. . I am using it with my honor 6x Bass is good but sound is little low. I have also used it with my lenovo k6 power and samsung ace 1 and the sound and bass was amazing. If smone buy it for honor phn for them (suggestion) sound is little low compare to samsung and lenovo. But most important thing... Sound clarity is very good.',
 'Good placements. Don\'t have worry about if you have a decent CGPA. Average package for ECE is about 7 LPA. Most of ECE students from ECE get placed in software companies. Very good placements for CS students with the highest package around 30lpa and average around 10 LPA.',
 'Dr. John is a patient, intervening and vastly knowledge person. I can’t thank him enough for all the help that he give me, with he’s help I was able to take my work to a next level. I will definitely recommend him as a tutor.!',
@@ -76,12 +76,18 @@ texts=[
 'Don\'t buy. Very cheap and band falls apart.',
 'Cheap but I gave it away to some kids .',
 'Its an addicting when your on the run or bored'
-]
+]'''
 #print(get_tuple(text.lower()))
+with open("kmeans_train.csv") as csv_file:
+	reader=csv.reader(csv_file)
+	next(reader)
+	for row in reader:
+		texts.append(row[1])
 for text in texts:
+	print(text,get_tuple(text))
 	#filtered_text=preprocess(text)
 	attributes.append(get_tuple(text))
-print(attributes)
+pprint.pprint(attributes)
 import pickle
 
 with open("train_data.txt", "wb") as myFile:
