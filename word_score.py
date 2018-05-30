@@ -49,4 +49,4 @@ def get_tuple(text):
 		ratio=5			# assume that a only positive sentence is equallivant to using 5 times more positive than negative words
 	else:
 		ratio=float(1.0*pos_count/neg_count)
-	return(round(pos_score,2),round(neg_score,2),round(ratio,2))
+	return(round(pos_score,2),round(neg_score,2))

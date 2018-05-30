@@ -1,9 +1,8 @@
 import pickle,csv,pprint
 import word_score
 
-attributes=[('pos_score','neg_score','ratio(pos/neg)')]
-with open("word_data.txt", "rb") as myFile:
-    dataset = pickle.load(myFile)
+attributes=[('pos_score','neg_score')]
+
 
 
 		
