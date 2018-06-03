@@ -2,7 +2,8 @@ import math
 
 def distance(n,p1,p2):
     sum=0
-    print(p1,p2)
+    #print(p1,p2)
+    
     for i in range(n):
         sum+=math.pow(float(p1[i])-float(p2[i]),2)
     return math.sqrt(sum)
