@@ -1,7 +1,26 @@
 sr,text,class
-1,It was very good,g
-2,it was okay.,n
-3,It was not good.,b
-4,It was perfect.,g
-5,It was better.,g
-6, uncool,b
+1,"It was somewhat good and bad",n
+2,"it was good.",g
+3,"It was not good.",b
+4,"It was perfect.",g
+5, "uncool",b
+6, "My concepts of the subject were solidified after taking this class.",n
+7, "Superb class, will help very much in my future work.",n
+8, "Teacher teaches well, but needs to communicate better",n
+9, "Teacher is very lousy, doesn’t want to teach, doesn’t even show up to class most of the times.",b
+10, "Assignments are too tedious making the course very stressful.",b
+11, "Very few classes, therefore syllabus was not covered properly.",n
+12, "Best class I’ve ever attended, teacher was very friendly and helpful. Overall excellent",g
+13, "The assignments set by the teacher were very difficult and this decreased the class’s morale.",n
+14, "Extremely difficult to focus in class, teacher makes everything boring and dull.",b
+15, "The professor has been able to create a very positive learning atmosphere.",g
+16, "Very helpful professor, can approach him whenever needed, solves everyone's doubts.",n
+17, " I am clueless about the subject, professor was not able to teach properly, and didn’t help in doubt clearance either.",b
+18, "I really loved the class, it was exciting and I wanted more lectures, the professor was extremely brilliant.",g
+19, "The presentations were very helpful, exceptional teaching by the professor.",g
+20, "Definitely the best course I’ve taken this semester, the professor is really amazing and was dedicated to helping the students.",g
+21, "Professor has no knowledge of subject, just reads out from presentations, I was not able to learn anything.",b
+22, "Lectures are decent, but professor should make it more understandable by using more solved problems.",n
+23, "I would not recommend this class, pretty uninformative, was not able to learn anything useful.",b
+24, "Professor is one of the best in college, it was a great experience getting to work under him.",g
+25, "Cool subject, great professor, this class was worth the time invested, I got to learn a lot of useful things.",n

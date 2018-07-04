@@ -12,6 +12,8 @@ stop_words.remove('very')
 with open("word_data.txt", "rb") as myFile:
     dataset = pickle.load(myFile)
 
+enhancers=['very','extremely','really','pretty']
+negators=['not']
 def preprocess(text):
 	tagged_sent = pos_tag(text.split())
 	print(tagged_sent)
@@ -34,10 +36,10 @@ def get_tuple(text):
 			scores=dataset[stem]
 			pos=float(scores['pos_score'])
 			neg=float(scores['neg_score'])
-			if 'very' in filtered_sentence[index-1]:
+			if filtered_sentence[index-1] in enhancers:
 				pos*=2
 				neg*=2
-			if 'not' in filtered_sentence[index-1]:
+			if filtered_sentence[index-1] in negators:
 				#print('not')
 				temp=pos
 				pos=neg
