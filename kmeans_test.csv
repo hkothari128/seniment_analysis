@@ -1,11 +1,11 @@
-attribute,,values,,,probability,,
-pos_score:,,g,n,b,g,n,b
-,"[0.0,0.14]",0,10,14,0,0.48,0.82
-,"[0.14,0.28]",2,11,3,0.17,0.52,0.18
-,"[0.28,0.42]",6,0,0,0.5,0,0
-,"[0.42,0.56]",4,0,0,0.33,0,0
-neg_score:,,,,,,,
-,"[0.0,0.125]",10,17,0,0.83,0.81,0
-,"[0.125,0.25]",2,4,4,0.17,0.19,0.24
-,"[0.25,0.375]",0,0,11,0,0,0.65
-,"[0.375,0.5]",0,0,2,0,0,0.12
+sr,text,class
+1,The teacher was excellent and clear!,g
+2,I had fun in the class. The teacher made it immersing.,g
+3,The teaching methodology was bad. Lecture was monotonous.,n
+4,Course material is helpful but teacher needs to be more interactive.,n
+5,The subject and teacher are both excellent.,g
+6,The subject is interesting but the teacher is not good with the students.,b
+7,It was the worst hour of every week with this teacher!,b
+8,Interest was generated and the teacher helped the students with doubts all along the way.,g
+9,Unsatisfactory.,b
+10,The entire experience was good but there is still room for improvement.,n
